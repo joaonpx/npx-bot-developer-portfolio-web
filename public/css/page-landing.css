@@ -1,0 +1,100 @@
+#page-landing {
+  background: radial-gradient(425.89% 101.48% at 50% 6.49%, #000D85 0%, #7011CE 22.57%, #FF5D53 65.23%, #F5F95A 100%);
+  background-size: 190vh;
+  background-position: center;
+
+  min-height: 100vh;
+}
+
+#container {
+  margin: auto; /* transformando em responsivo */
+  width: min(90%, 112rem);
+}
+
+.montanhas {
+  position: absolute;
+  width: 158.1rem;
+  height: 550.31px;
+  left: 0px;
+  top: 550.04px;
+}
+
+.pop-up {
+  position: absolute;
+  width: 380px;
+  height: 178.66px;
+  left: 120.1rem;
+  top: -30px;
+}
+
+header img {
+  margin-top: 10rem;
+  margin-left: -2.7rem;
+  width: 1089px;
+  height: 198px;
+}
+
+.demo {
+  position: absolute;
+  width: 500.29px;
+  height: 300.71px;
+  top: 285px;
+  left: 830px;
+}
+
+main.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 350px 1fr;
+  grid-template-areas: 
+  "image image"
+  "texting";
+  gap: 13px;
+}
+
+main {
+  margin-top: 2.5rem;
+}
+
+.sub-logo {
+  width: 650px;
+  height: 100px;
+}
+
+main h2 {
+  margin-top: 2.5rem;
+  font-size: 3rem;
+
+  margin-bottom: 2.5rem;
+}
+
+button {
+  background-color:rgba(255,255,255, 10);
+  width: 20rem;
+  height: 4.5rem;
+
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #21153B;
+
+  border: none;
+  border-radius: 2rem;
+
+  margin: auto;
+
+  padding: 1rem;
+
+  transition: background 200ms;
+
+  cursor: pointer;
+  outline: none;
+
+}
+
+button:hover {
+  background-color: #21153B;
+  color: rgba(255,255,255, 10);
+  
+}
+
